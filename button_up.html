@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .search {
+            border: 5x;
+            border-style: solid;
+            border-color: teal;
+            border-radius: 15px;
+            padding: auto;
+            text-align: center;
+            display: inline-block;
+            margin: 4px 2px;
+            height: 25px;
+            width: 125px;
+            color: teal;
+        }
+        .circle {
+            height: 40px;
+            width: 40px;
+            border: none;
+            border-radius: 50%;
+            outline: none;
+            background-color: rgb(53, 240, 178);
+            padding: 12px;
+        }
+        .horizontal, .vertical {
+            width: 100%;
+            height: 2px;
+            background-color: white;
+        }
+        .vertical {
+            position: relative;
+            bottom: 2px;
+            transform: rotate(90deg);
+        }
+        .Account {
+            border: 2px;
+            border-style: solid;
+            border-color: black;
+            padding: auto;
+            text-align: center;
+            display: inline-block;
+            margin: 4px 2px;
+            background-color: rgb(14, 112, 192);
+            color: white;
+            height: 35px;
+            width: 175px;
+            font-size: large;
+            box-shadow: 5px 5px black;
+            
+        }
+    </style>
+</head>
+<body>
+    <div><button class="search">Search</button></div>
+    <div>
+        <button class="circle">
+            <div class="line-wrapper">
+                <div class="horizontal"></div>
+                <div class="vertical"></div>
+            </div>
+        </button>
+    </div>
+    <div><button class="Account">Create Account</button></div>
+</body>
+</html>
