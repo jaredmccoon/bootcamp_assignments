@@ -1,0 +1,142 @@
+.container {
+    margin: auto;
+    width:800px;
+    display: flex;
+}
+.collumn1 {
+    width: 500px;
+
+}
+.collumn2 {
+    width: 200px;
+}
+.profile {
+    width: 400px;
+    border-style: solid;
+    border-color: #99aab5;
+    margin: 30px;
+
+}
+
+.education {
+    width: 400px;
+    border-style: solid;
+    border-color: #99aab5;
+    margin: 30px;
+}
+
+.pending {
+    width: 300px;
+    border-style: solid;
+    border-color: #99aab5;
+    display: inline-block;
+    margin: 30px;
+}
+
+.connections {
+    width: 300px;
+    border-style: solid;
+    border-color: #99aab5;
+    margin: 0px 30px 0px 30px;
+}
+
+
+
+.mininav {
+    background-color: #3a3a3a;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 6px;
+}
+
+#pfp {
+    height: 30px;
+    margin: 3px;
+    padding-right: 5px;
+    padding-left: 3px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#icon {
+    height: 32px;
+    padding-right: 5px;
+    padding-left: 3px;
+}
+
+#icons {
+    height: 15px;
+    padding-right: 5px;
+    padding-left: 3px;
+}
+#mypfp {
+    height: 85px;
+    padding-top: 20px;
+
+}
+
+.mynav {
+    height: 70px;
+    background-color: #3a3a3a;
+}
+
+.request {
+    font-size: xx-large;
+}
+
+.connect {
+    font-size: xx-large;
+}
+
+.minibtn1 {
+    border-radius: 35%;
+    border: none;
+    height: 25px;
+    width: 35px;
+    background-color: #acb4b9;
+}
+
+.minibtn {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: #acb4b9;
+}
+
+.mininav > p {
+    padding-left: 20px;
+}
+
+.profile > ul > li:nth-of-type(1) {
+    font-size: xx-large;
+}
+
+
+.profile > ul {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.education > ul > li:nth-of-type(1) {
+    font-size: large;
+}
+
+.education > ul > li:nth-of-type(2) {
+    color: grey;
+    font-size: medium;
+
+}
+
+.view {
+    width: 300px;
+    border-style: solid;
+    border-color: #99aab5;
+    margin: 0px 30px 30px 30px;
+    border-top-color: none;
+}

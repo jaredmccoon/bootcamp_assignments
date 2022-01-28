@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="container.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="nav">
+        <div>
+            <ul class="nav-links">
+                <li> <h1 class="nav-title">Profile</h1></li>
+                <li>Home</a></li>
+    	        <li>My Profile</a></li>
+    	        <li>Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="collumn1">
+            <div class="profile">
+                <div class="mynav">
+                    <img id="mypfp" src="./images/jane-m.jpg">
+                </div>
+                <ul>
+                    <li>Jane Doe</li>
+                    <li><img id="icons" src="./icons/map-marker.png">Seattle</li>
+                    <li>Developer | Engineer | Problem Solver</li>
+                    <li>Master Of shadows and the Internet!</li>
+                    <li class="edit"><img id="icons" src="./icons/gear.png"><a href="#">edit profile</a></li>
+                </ul>
+            </div>
+            <div class="education">
+                <div class="mininav">Education</div>
+                <ul>
+                    <li>Coding Dojo - Full Stack Bootcamp</li>
+                    <li>Dec 2019 - March 2020</li>
+                    <li>Triple Black Belt in python, MERN, and C#</li>
+                </ul>
+            </div>
+        </div>
+        <div class="collumn2">
+            <div class="pending">
+                <div class="mininav"><button class="minibtn">2</button><p>Connection requests</p></div>
+                <ul>
+                    <li class="request"><img id="pfp" src="./images/todd-s.jpg">Todd E
+                        <img id="icon" src="./icons/accept-circle.png">
+                        <img id="icon" src="./icons/close-circle.png">
+                    </li>
+                    <li class="request"><img id="pfp" src="./images/phil-s.jpg">Phil K
+                        <img id="icon" src="./icons/accept-circle.png">
+                        <img id="icon" src="./icons/close-circle.png">
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="connections">
+                <div class="mininav"><button class="minibtn1">500+</button><p>Your Connections</p></div>
+                <ul>
+                    <li class="connect"><img id="pfp" src="./images/adrien-s.jpg">Adrien D</li>
+                    <li class="connect"><img id="pfp" src="./images/anne-s.jpg">Anne J</li>
+                    <li class="connect"><img id="pfp" src="./images/alayne-s.jpg">Alayne T</li>
+                    <li class="connect"><img id="pfp" src="./images/arry-s.jpg">Arry Y</li>
+                </ul>
+            </div>
+            <div class="view"><a href="#">View More</a></div>
+        </div>
+    </div>
+</body>
+</html>
