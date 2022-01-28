@@ -1,0 +1,83 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn {
+    border-style: solid;
+    border-color: teal;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    height: 25px;
+    width: 125px;
+    color: teal;
+}
+.row {
+    display: flex;  
+}
+.col {
+    flex: 1;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 10px;
+}
+
+.nav {
+    display: flex;
+    margin: auto;
+    background-color: #3a3a3a;
+    width: 1000px;
+}
+.nav-title {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+}
+.nav-links {
+    width: 600px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 400px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+.nav-links > li {
+    margin: auto;
+    padding: 10px;
+}
+.btn {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    background-color: rgb(56, 172, 201);
+    box-shadow: 5px 5px black;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+}
+.container {
+    margin: auto;
+    width:800px;
+    display: flex;
+}
+.collumn1 {
+    width: 500px;
+
+}
+.collumn2 {
+    width: 200px;
+}
