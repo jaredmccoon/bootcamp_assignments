@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+.subcontainer2 {
+    display: flex;
+}
+
+.column1 {
+    width: 700px;
+}
+
+.column2 {
+    width: 300px;
+}
+
+
+.column1 > div {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.sidebar {
+    border-style: solid;
+    border-color: black;
+    border-radius: 3%;
+}
+
+.navbar {
+    display: flex;
+    background-color: grey;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.title {
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+.search {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 20px;
+    width: 400px;
+    margin: auto;
+}
+#login {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin: 4px 2px;
+    background-color: rgb(69, 142, 202);
+    height: 35px;
+    width: 80px;
+    font-size: large;
+    box-shadow: 5px 5px black;
+    margin:auto;
+}
+
+.side {
+    width: 190px;
+}
+
+.main {
+    width: 510px;
+}
+
+.word {
+    font-size: xx-large;
+    margin: 30px 20px 30px 40px;
+    padding: 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.type {
+    font-style: italic;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.plural {
+    font-style: italic;
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.main > a {
+    margin: auto;
+    font-size: 20px;
+    padding: 80px;
+    display: inline-block;
+}
+
+.btn {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin: 4px 2px;
+    background-color: rgba(244, 247, 74, 0.664);
+    height: 35px;
+    width: 80px;
+    font-size: large;
+    box-shadow: 5px 5px black;
+    margin: 30px;
+}
+
+#define {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin: 4px 2px;
+    background-color: rgba(104, 247, 140, 0.664);
+    height: 35px;
+    width: 200px;
+    font-size: large;
+    box-shadow: 5px 5px black;
+    margin: 30px;
+}
+
+.note {
+    font-size: 25px;
+    margin: auto;
+    padding: 30px;
+    display: inline-block;
+}

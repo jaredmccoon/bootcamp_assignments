@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer1">
+            <div class="navbar">
+                <a class="title">Dojonary</a>
+                <input  type="text" placeholder="search" class="search">
+                <button id="login" onclick="logout()">Login</button>
+            </div>
+        </div>
+        <div class="subcontainer2">
+            <div class="column1">
+                <div class="card1">
+                    <div class="side">
+                        <a class="word">ninja</a>
+                        <a class="type">noun</a>
+                        <a class="plural">Plural: ninjas</a>
+                        <button class="btn" onclick="alert('ninja was liked')">Likes</button>
+                    </div>
+                    <div class="main">
+                        <a>A practitioner skilled in the japanese art of ninjitsu</a>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="side">
+                        <a class="word">ninja</a>
+                        <a class="type">noun</a>
+                        <a class="plural">Plural: <i>ninjas</i></a>
+                        <button class="btn" onclick="alert('ninja was liked')">Likes</button>
+                    </div>
+                    <div class="main">
+                        <a>A proggrammer who breaks down problems with zen-like focus</a>
+                        </div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="sidebar">
+                    <a class="note">Dojonary is defined by <b>YOU</b></a>
+                    <button id="define" onclick="custom()">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
