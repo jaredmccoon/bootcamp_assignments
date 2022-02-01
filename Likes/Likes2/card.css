@@ -1,0 +1,77 @@
+.card {
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head > ul > li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin: 4px 2px;
+    background-color: rgb(226, 208, 47);
+    height: 35px;
+    width: 80px;
+    font-size: large;
+    box-shadow: 5px 5px black;
+    margin:auto;
+}
+
+.btn:hover {
+    background-color: rgb(156, 146, 56) ;
+}
+
+
+#user {
+    padding-right: 30px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.profile {
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.side {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.filler {
+    display: flex;
+    justify-content: center;
+}
+
+.profile img {
+    height: 80px;
+    margin: auto;
+    padding: 20px;
+}
+
+.profile a {
+    font-size: 11px;
+}
+
+.profile p {
+    font-size: 20px;
+    padding: 8px;
+}

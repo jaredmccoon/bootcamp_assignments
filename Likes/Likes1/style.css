@@ -1,0 +1,37 @@
+.container {
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    width: 400px;
+}
+.head {
+    display: flex;
+}
+
+.head > ul > li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin: 4px 2px;
+    background-color: rgb(226, 208, 47);
+    height: 35px;
+    width: 80px;
+    font-size: large;
+    box-shadow: 5px 5px black;
+    margin:auto;
+}
+
+
+#user {
+    padding-right: 30px;
+    font-size: 20px;
+    margin-left: 3px;
+}
