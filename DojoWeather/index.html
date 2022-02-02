@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div>
+                <h1>DojoWeather</h1>
+            </div>
+            <div>
+                <button id="city" onclick="alert('Loading weather report...')"><h2>Burbank</h2></button>
+                <button id="city" onclick="alert('Loading weather report...')"><h2>Chicago</h2></button>
+                <button id="city" onclick="alert('Loading weather report...')"><h2>Dallas</h2></button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="head">
+            <div>
+                <h1>San Jose</h1>
+            </div>
+            <div>
+                <p>Show temperature in</p>
+                <select id="temp">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="days">
+            <div class="card">
+                <h1>Today</h1>
+                <img src="./assets/some_rain.png">
+                <h3>some rain</h3>
+                <div id="degrees">
+                    <p id="high">24°</p>
+                    <p id="low">18°</p>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Today</h1>
+                <img src="./assets/some_sun.png">
+                <h3>some sun</h3>
+                <div id="degrees">
+                    <p id="high">80°</p>
+                    <p id="low">66°</p>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Today</h1>
+                <img src="./assets/some_clouds.png">
+                <h3>some clouds</h3>
+                <div id="degrees">
+                    <p id="high">69°</p>
+                    <p id="low">61°</p>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Today</h1>
+                <img src="./assets/some_sun.png">
+                <h3>some sun</h3>
+                <div id="degrees">
+                    <p id="high">78°</p>
+                    <p id="low">70°</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="consent">
+                <img src="./assets/cookie.png">
+                <div>
+                    <h3>Stop! Cookie time</h3>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, 
+                        to provide social media features
+                        and to analyse our traffic. <a href="#">Read more</a>
+                    </p>
+                </div>
+                <button id="accept" onclick="custom(this)">I Accept</button>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
